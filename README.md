@@ -6,15 +6,15 @@ JavaBasicProblemSolving
 
 Java Tutorial 
  
-Tutorial  Java Intro:  01 Java :   
+# Tutorial  Java Intro:  01 Java :   
 java holo high level programming language. Eta develop kore sun micro system but currently own by oracle. 
  
-Why we should learn java / feature java: 
+# Why we should learn java / feature java: 
  
 1.	Platform independent language.(WORA) – write once run anyway- all operating system code to be supported any place just like java independent. 
  
                      
-2.	Object oriented –  
+# 2.	Object oriented –  
  
 real life er sathe object gulo mil reke amara programming korbo. 
  
@@ -71,7 +71,7 @@ Mac sokol operating a run korte pare.
 Tutorial: 1 Completed learn  
 # The End of part Java Intro # 
     
-First Java Application: T : 02  
+# First Java Application: T : 02  
  
 1.	Project under– package  uder– class. 
  
@@ -121,25 +121,25 @@ Etake statement o bola hoy statement er sese semiclone dite hoy.
  
  
 Tutorial: 2 Completed learn  
-# The End of part First java app# 
+ The End of part First java app# 
     
-Escape Sequence T: -  03 
+# Escape Sequence T: -  03 
  
 What is Escape sequence :- 
 Eta akta special character jeta thakbe backslash sinno er pore , etake escape sequence ba backslash char o bola hoy. 
  
  # escape sequence gulo obossho “” cotation er vitore thakte hobe. 
- #    \ - backslash 
- #   \b – backspace – sei num/word muse jabe. 
- #   \t – tab – 4 ghor porjonto faka nibe. 
- #   \n – newline 
- #   \r – carriage return – samne ja thakbe clear hoye jabe like – about\r dile about thakbena.  
- #   \ “ – double quote- double quote hobe – “u” 
- #   \’ – single quote – ‘u’ 
- #   \\ – backslash -  uzz\\al -  output  uzz\al 
+     \ - backslash 
+     \b – backspace – sei num/word muse jabe. 
+    \t – tab – 4 ghor porjonto faka nibe. 
+    \n – newline 
+    \r – carriage return – samne ja thakbe clear hoye jabe like – about\r dile about thakbena.  
+    \ “ – double quote- double quote hobe – “u” 
+    \’ – single quote – ‘u’ 
+    \\ – backslash -  uzz\\al -  output  uzz\al 
  
  
-Java Scape Sequence 
+# Java Scape Sequence 
 \t 	Inserts a tab in the text at this point. 
 \b 	Inserts a backspace in the text at this point. 
 \n 	Inserts a newline in the text at this point. 
