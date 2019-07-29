@@ -129,8 +129,9 @@ What is Escape sequence :-
 Eta akta special character jeta thakbe backslash sinno er pore , etake escape sequence ba backslash char o bola hoy. 
  
  # escape sequence gulo obossho “” cotation er vitore thakte hobe. 
-     \ - backslash 
-     \b – backspace – sei num/word muse jabe. 
+ 
+    \ - backslash 
+    \b – backspace – sei num/word muse jabe. 
     \t – tab – 4 ghor porjonto faka nibe. 
     \n – newline 
     \r – carriage return – samne ja thakbe clear hoye jabe like – about\r dile about thakbena.  
@@ -140,14 +141,15 @@ Eta akta special character jeta thakbe backslash sinno er pore , etake escape se
  
  
 # Java Scape Sequence 
-\t 	Inserts a tab in the text at this point. 
-\b 	Inserts a backspace in the text at this point. 
-\n 	Inserts a newline in the text at this point. 
-\r 	Inserts a carriage return in the text at this point. 
-\f 	Inserts a form feed in the text at this point. 
-\' 	Inserts a single quote character in the text at this point. 
-\" 	Inserts a double quote character in the text at this point. 
-\\ 	Inserts a backslash character in the text at this point. 
+
+\t - 	Inserts a tab in the text at this point. 
+\b -	Inserts a backspace in the text at this point. 
+\n -	Inserts a newline in the text at this point. 
+\r -	Inserts a carriage return in the text at this point. 
+\f -	Inserts a form feed in the text at this point. 
+\' -	Inserts a single quote character in the text at this point. 
+\" -	Inserts a double quote character in the text at this point. 
+\\ -	Inserts a backslash character in the text at this point. 
  
  
 package Feburary; 
@@ -191,8 +193,10 @@ Java Execution Start / Java phases Tutorial num – 04
 2.	Eropr java compiler thkeke byte code a jai 
 3.	Java virtual machine thke program ta excute hoy 
 # Tutorial: 4 Completed learn  
-#  The End of part Java Phases Tutorial 
-Tutorial :   05 
+  The End of part Java Phases Tutorial 
+
+
+# Tutorial :   05 
 Varibale and DataType In Java 
  
 Varibale and Data Type 
@@ -217,19 +221,21 @@ Variable name digit / math don’t start to decleare.
 keyword function/method name don’t start to decleare. 
  
 4.	Variable delceration syantax:  
-•	Fast dattype • Second variable. 
+•	Fast dattype 
+ • Second variable. 
 •	int  a = 10;   
 •	- int datatype , a variable – 10 value. 
  
-5.	Data type in java: 
+# 	Data type in java: 
 Data type 02 prokar. 
  
  
  
-1. Primitive datatype –Numeric, Integral. 
+# Primitive datatype
+  Numeric, Integral. 
   Integral- character char, Integral. 
   Integer – byte, short, Int, long. 
- Floating point – float , double. 
+  Floating point – float , double. 
  
 # Primitive Data type  (8)– Boolean, char ,int, byte, short, long, float, double. 
 # Non- primitive datatype- String, Array,  etc.  
@@ -239,7 +245,7 @@ Data type 02 prokar.
 package FeburaryJAVA; 
  
  
-//        Data type  and variable.. 
+#   Data type  and variable.. 
  
 public class SecondJava { 
  
@@ -303,22 +309,33 @@ public class SecondJava {
  
  
  
-Special bolg 
-Variables are nothing but reserved memory locations to store values. This means that when you create a variable you reserve some space in the memory. 
-Based on the data type of a variable, the operating system allocates memory and decides what can be stored in the reserved memory. Therefore, by assigning different data types to variables, you can store integers, decimals, or characters in these variables. 
-There are two data types available in Java − 
+# Special bolg 
+1. Variables are nothing but reserved memory locations to store values. This means that when you create a variable you reserve some space in the memory. 
+
+2. Based on the data type of a variable, the operating system allocates memory and decides what can be stored in the reserved memory. Therefore, by assigning different data types to variables, you can store integers, decimals, or characters in these variables. 
+
+# There are two data types available in Java − 
 •	Primitive Data Types 
 •	Reference/Object Data Types 
-Primitive Data Types 
+
+# Primitive Data Types 
 There are eight primitive datatypes supported by Java. Primitive datatypes are predefined by the language and named by a keyword. Let us now look into the eight primitive data types in detail. 
-byte 
+
+# Byte 
+
 •	Byte data type is an 8-bit signed two's complement integer 
+
 •	Minimum value is -128 (-2^7) 
+
 •	Maximum value is 127 (inclusive)(2^7 -1) 
+
 •	Default value is 0 
+
 •	Byte data type is used to save space in large arrays, mainly in place of integers, since a byte is four times smaller than an integer. 
+
 •	Example: byte a = 100, byte b = -50 
-short 
+
+# short 
 •	Short data type is a 16-bit signed two's complement integer 
 •	Minimum value is -32,768 (-2^15) 
 •	Maximum value is 32,767 (inclusive) (2^15 -1) 
@@ -331,7 +348,9 @@ short
 •	Integer is generally used as the default data type for integral values unless there is a concern about memory. 
 •	The default value is 0 
 •	Example: int a = 100000, int b = -200000 
-long 
+
+
+# long 
 •	Long data type is a 64-bit signed two's complement integer 
 •	Minimum value is -9,223,372,036,854,775,808(-2^63) 
 •	Maximum value is 9,223,372,036,854,775,807 (inclusive)(2^63 -1) 
@@ -343,30 +362,35 @@ long
 •	Default value is 0.0f 
 •	Float data type is never used for precise values such as currency 
 •	Example: float f1 = 234.5f 
-double 
+
+# double 
 •	double data type is a double-precision 64-bit IEEE 754 floating point 
 •	This data type is generally used as the default data type for decimal values, generally the default choice 
 •	Double data type should never be used for precise values such as currency 
 •	Default value is 0.0d 
 •	Example: double d1 = 123.4 
-boolean 
+
+# boolean 
 •	boolean data type represents one bit of information 
 •	There are only two possible values: true and false 
 •	This data type is used for simple flags that track true/false conditions 
 •	Default value is false 
 •	Example: boolean one = true 
-char 
+
+# char 
 •	char data type is a single 16-bit Unicode character 
 •	Minimum value is '\u0000' (or 0) 
 •	Maximum value is '\uffff' (or 65,535 inclusive) 
 •	Char data type is used to store any character 
 •	Example: char letterA = 'A' 
-Reference Datatypes 
+
+# Reference Datatypes 
 •	Reference variables are created using defined constructors of the classes. They are used to access objects. These variables are declared to be of a specific type that cannot be changed. For example, Employee, Puppy, etc. 
 •	Class objects and various type of array variables come under reference datatype. • Default value of any reference variable is null. 
 •	A reference variable can be used to refer any object of the declared type or any compatible type. 
 •	Example: Animal animal = new Animal("giraffe"); 
-Java Literals 
+
+# Java Literals 
 A literal is a source code representation of a fixed value. They are represented directly in the code without any computation. 
 Literals can be assigned to any primitive type variable. For example − 
 byte a = 68; char a = 'A'; 
@@ -382,7 +406,8 @@ Example
 String and char types of literals can contain any Unicode characters. For example − 
 char a = '\u0001'; 
 String a = "\u0001"; 
-Java language supports few special escape sequences for String and char literals as well. They are − 
+
+# Java language supports few special escape sequences for String and char literals as well. They are − 
 Notation 	Character represented 
 \n 	Newline (0x0a) 
 \r 	Carriage return (0x0d) 
@@ -402,7 +427,7 @@ This chapter explained the various data types. The next topic explains different
 
  
         End of data type / variable Tutorial:-  5 
-Tutorial :  06 
+#  Tutorial :  06 
 Format Spec fire In Java 
   
 1.	Today use to printf method . 
@@ -458,47 +483,47 @@ public class FormatSpecifire4 {
  
  
  
-# The End Of java format specifier Tutoria  - 06 
+ The End Of java format specifier Tutoria  - 06 
  
  
-Tutorial No: - 07 
--:How to get User Input:- 
+# Tutorial No: - 07 
+# -:How to get User Input:- 
  
-// java User input 
+# // java User input 
 System.out.println("Enter your data"); 
 Scanner sc = new Scanner(System.in); 
   
 long l = sc.nextLong(); 
 System.out.println("Long value = "+l); 
  
- //sort 
+ # //sort 
 short s = sc.nextShort(); 
 System.out.println("Short data :  "+s); 
  
- //byte byte n = 100; 
+ # //byte byte n = 100; 
 System.out.println("Byte data : "+n); 
  
  
- //float 
+#  //float 
 float fl = sc.nextFloat(); 
 System.out.println("Float data: "+fl); 
  
  
-//string 
+# //string 
 String name = sc.nextLine(); 
 System.out.println("String data: "+name); 
  
  
-//double 
+# //double 
 double res = sc.nextDouble(); 
 System.out.println("Double data : "+res); 
  
  
-//int data type  int num = sc.nextInt(); 
+# //int data type  int num = sc.nextInt(); 
  System.out.println("Int data: "+num); 
  
  
-Java User Input: 
+# Java User Input: 
  
 https://www.tutorialspoint.com/java/util/java_util_scan ner.htm 
 1.  Scanner class use korte hobe. 
@@ -518,10 +543,10 @@ public class UserInput {
         Scanner  sc = new Scanner(System.in);         System.out.println("please your name");         name = sc.nextLine(); 
 
 
-Tutorial No: 07 
--: Arithmetic Operator:- 
+#      Tutorial No: 07 
+#  Arithmetic Operator:- 
  
-1.	Oerator , Operand , Expression:- 
+# 1.	Oerator , Operand , Expression:- 
   
 Operator:- +,-,*,/ , =   ei gulo operator. 
 Operand:-  jader niye + ,- kora hoy take operand bole 
@@ -539,7 +564,7 @@ Expression:- operator , operand, Constant value niyei amder Expression.
  
  
  
-3.	Arithmetic Operator: 5 type’s of arithmetic operator:  
+# 3.	Arithmetic Operator: 5 type’s of arithmetic operator:  
  
  
 Example:-  
@@ -566,7 +591,7 @@ System.out.println("Modulas : " +res);
  
  
  
-4.	Assignment operator: 6 type’s of assignment operator 
+# 4.	Assignment operator: 6 type’s of assignment operator 
  
 =    Assign operator 
 += plus Assign Operator 
@@ -612,19 +637,21 @@ Example:-
  
   
  
-Area of formula is almost done it git. 
+# Area of formula is almost done it git. 
  
 https://gist.github.com/uzzalmondalcse/c3 40e3058f4364d37126258067dc1a1b Temperature  programming solve, show to            gist…  https://gist.github.com/uzzalmondalcse/6a24d353 3690f21da3f4017fa3aedd71 
  
  
  
  
-   The end of Tutorial 07: Arithmetic with assignment oPerator....@@@@####                    Tutorial num:-  08 
-                  --  Unary Operator  --  
+   The end of Tutorial 07: Arithmetic with assignment oPerator....@@@@####                    
+   
+   #         Tutorial num:-  08 
+   #  --  Unary Operator  --  
  
  
-Unary:-  akti mattro operand er sathe Jodi kono operator add kora hoy tahole unary operator bola hoy  like +a; 
-# unary operator j man thakbe Jodi plus hoy tahole gun korbe minus hole minus gun korbe.. Example:-  
+# Unary:-  akti mattro operand er sathe Jodi kono operator add kora hoy tahole unary operator bola hoy  like +a; 
+ unary operator j man thakbe Jodi plus hoy tahole gun korbe minus hole minus gun korbe.. Example:-  
  
 //Unary Operator + , - int x = -10; int res; 
   
@@ -633,20 +660,25 @@ System.out.println("Unnary plus: "+res);
  
 res = -x; 
 System.out.println("Unnary minus: "+res);  
+
 Increment :-      ++; 
 Unary plus er sathe ak ak kore barano hoy. 
+
 Decrement:      -- 
-Unary minus er sathe ak ak kore komanohoy.  # Increment – Decrement operator k 02 vage vag kora hoy, prefix and postfix.. 
+Unary minus er sathe ak ak kore komanohoy.  
+# Increment – Decrement operator k 02 vage vag kora hoy, prefix and postfix.. 
  	   
  
-++a           – Jodi kono variable er age bose prefix increment operator. Age bosle ak jog hoye jai  
---a              – Jodi kono variable er age bose prefix decrement operator.. 
+++a       – Jodi kono variable er age bose prefix increment operator. Age bosle ak jog hoye jai  
+--a       – Jodi kono variable er age bose prefix decrement operator.. 
 a ++      - Jodi kono variable er pore bose postfix increment operator. 
-a--      - Jodi kono variable er pore bose postfix decrement operator. 
+a--       - Jodi kono variable er pore bose postfix decrement operator. 
  	 
 ++x  = valur man agei barbe , and  valu ter sathe add hobe.. etake bola hoy prefix. 
  
-X++  = valur man agei barbena , pore barbe othat pore Jodi kono value pai tahole sei valur sathe add hoe e joono etake bola hoy postfix operator.. 
+X++  = valur man agei barbena , pore barbe othat pore Jodi kono value pai tahole sei valur sathe add hoe e joono etake bola hoy postfix
+
+# operator.. 
 Unnarry Operator 
 Unary +, unary – 
 Unaary ++; Unaary-- 
@@ -671,7 +703,7 @@ public class unaryOperator {
     } 
 } 
  
-      Most Important Unnary Operator 
+   #  Most Important Unnary Operator 
 1.	prefix  = ++a 
 2.	postfix = a++; 
 3.	prefix holo man pabe barbe… 
@@ -696,26 +728,23 @@ public class unaryOperator {
         b = --a; 
         System.out.println("B="+b); 
  Tutorial:v08 unary programming now End.. 
-                    Tutorial : - 09 
-                    Relational Operator. 
- 
- 
-     The End of Relational operator 09 
-     
-                              Tutorial: 10 
-Control statement If else:-  
  
  
  
  
-     
-     
-        
-            
  
-                           Even Odd num:  
  
-Scanner sc = new Scanner(System.in); System.out.println("Enter a num"); int num = sc.nextInt(); 
+ 
+
+
+   # Tutorial: 10 
+# Control statement If else:-  
+ 
+ # Even Odd num:  
+ 
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter a num"); 
+int num = sc.nextInt(); 
  
 if (num%2==0){ 
  
@@ -729,11 +758,13 @@ if (num%2==0){
 } 
  
  
-Vowel and Consonant 
+# Vowel and Consonant 
  
 //Vowel and consonant 
  
- Scanner sc = new Scanner(System.in);  System.out.println("Please input letter ");   char v = sc.next().charAt(0); 
+ Scanner sc = new Scanner(System.in); 
+ System.out.println("Please input letter "); 
+ char v = sc.next().charAt(0); 
  
  
  
@@ -757,9 +788,9 @@ Vowel and Consonant
 Tutorial end 10 .. 
 Control statement if else Done 
        
-Tutorial 11  
+# Tutorial 11  
  
-Logical Operator 
+# Logical Operator 
  
 1.	Dui ba totodhik condition er moddhe shomporko sthaponer jonno logical Operator use kora hoy. 
  
@@ -773,14 +804,14 @@ Logical Operator
  
  
  
-Learn Logical And && 
+# Learn Logical And && 
 1. Dui ba totodhik condition jokon true hobe tokon seta ke amara logical and operator bole thakbo.  Condition jotogula thakbe true hole amder j statement tahkbe statement tokon  kaj korbe. 
  
-Important:- 
+# Important:- 
 1.	Akta false then statement is false . 
 2.	All item’s are true then statement is true. 
  
-3.	All Condition true hole ture , statement er moddhe dukhbe, akta condition false hole statement er moddhe dukhbena. 
+# 3.	All Condition true hole ture , statement er moddhe dukhbe, akta condition false hole statement er moddhe dukhbena. 
  
 Example 02:-  
 package FeburaryJAVA; 
@@ -806,12 +837,12 @@ public class logicalAnd    {
  
  
  
- learn Logical OR(||) 
+ # learn Logical OR(||) 
  
 1.  Onek gulo condition thakbe amder j kono akta true korar projon hobe e jonno amra logical Or ei Operator bole thakbo. R j kono akta true hole amder 
 condition er statement kaj korbe 
  
-Important:  
+# Important:  
 1.	Sob gulo theke akta item Jodi true hoy tahole true. 
 2.	Sob gulo item Jodi false hoy tahole false ashbe. 
  
@@ -839,15 +870,15 @@ public class LogicalOperator {
  
     } 
 } 
-op – true , flase; 
+# op – true , flase; 
  
-learn Logical notEqual(!=) 
+# learn Logical notEqual(!=) 
 1.	Kono item soman noy take logical not equal bola hoye thake. 
 2.	Jodi soman thake tahole stamen kaj korbena r Jodi not equal soman na hoy tahole  ter statement kaj korbe..  
      
 End of Tutoiral 11  logical operator. 
       
-Tutorial :  12 Switch Case 
+#         Tutorial :  12       ;) Switch Case 
 Switch Case In Java 20.02.19 
  
 0.	Switch, case, break, default, – 04 keyword sure neccessare  
@@ -867,6 +898,7 @@ Switch Case In Java 20.02.19
 switch er moddhe kono akta value / experrision amara patch korbo. 
  
 2.	Switch block er moddhe onek gulo condition thakbe / onek gulo  case thakbe. Jamonta if er moddhe koresilam.  
+
 3.	Amra j value ta pass korbo seta Jodi  
 Ei valur sathe match hoy tahole amader statement kaj korbe and break korbe. Othat nise jaoar r kono projon nei. Amder condition/ expression onujahi Jodi expression  match kore thole sei case er/ statement ti kaj korbe and break hobe nise jaor projon hobena. 
  
@@ -877,13 +909,12 @@ Ei valur sathe match hoy tahole amader statement kaj korbe and break korbe. Otha
 Tutorial -  12  
 End of Java Switch.. 
  
-Tutorial – 13 
-Java conditional / ternary Operator:- Java Conditional Operator 23.02.19 
+# Tutorial – 13 
+# Java conditional / ternary Operator:- Java Conditional Operator 23.02.19 
  
 1.	Conditional operator kea amara Ternary operator  bole thaki. 
  
-2.	experession1?   expression2:    
-expression3  
+2.	experession1?   expression2:    expression3  
  
  
 3.	ei 3 ta operand niye kaj kore bole eke a amara ternary operator / conditional operator bole thaki. 
@@ -925,8 +956,8 @@ public class CoditonalOperrator {
 Java Ternary / Conditional operator end Now… Tutorial 13 
  
  
-Tutorial : 14 
-Java Math Class 
+# Tutorial : 14 
+# Java Math Class
  
 Java Math Class 
 1.	https://docs.oracle.com/javase/8/do cs/api/java/lang/Math.html 
@@ -937,20 +968,20 @@ int max = Math.max(x,y);
  
 int min = Math.min(x,y);  
  
-3.	Java Absolute method eti (- minus ) man ke +(plus ) kore dibe. 
+# 3.	Java Absolute method eti (- minus ) man ke +(plus ) kore dibe. 
  
 // absulate value. 
   int abs = Math.abs(y); 
   System.out.println("Absoulate value = "+abs); 
  
-4.	Java power(pow) ei method . ami int man dile problem nai kintu return korbe double type er. 
+# 4.	Java power(pow) ei method . ami int man dile problem nai kintu return korbe double type er. 
  
 // power class   Int x = 2, y = 3  
 double pow = Math.pow(x, y);  
 System.out.println("Power  = "+pow);   
 Ekhane power mane x = 2 and y er man 3 . akon 2 er power hobe y er value 3  23 = 8.  
  
-5.	Math class er round niye kaj korbo. Round holo float type er akta man k se int e return kore and kaskasi kono sonkha 5.5 hole se 6 output dai.  
+# 5.	Math class er round niye kaj korbo. Round holo float type er akta man k se int e return kore and kaskasi kono sonkha 5.5 hole se 6 output dai.  
  
 //round class  
 float ro = Math.round(5.5f);  
@@ -959,7 +990,7 @@ System.out.println("Round class = "+ro);
  
  
  
-6.	Pi er man ti akdomi static variable er moton  
+# 6.	Pi er man ti akdomi static variable er moton  
 7. // pi class  double pi = Math.PI;  
 System.out.println("pi valu of :-"+pi);  
  
@@ -996,10 +1027,10 @@ public class MathDemo {
  
 Tutoiral 14 now End Java Math Class.. 
      
-Tutorial 15 
-Java for loop 
+# Tutorial 15 
+# Java for loop 
  
-Java For Loop 25.02.19 
+# Java For Loop 25.02.19 
 1.	Loop er sahajee kono akta kajke amara bar bar sompdhon korte pari. Kono akta statement ba multiple statement k amara bar bar sompodhon korte pari. 
 2.	For loop er jono amder jeta projon seta holo first for keyword projon. 
 3.	Akta for loop er 3 ta part thake, 
@@ -1110,7 +1141,7 @@ public class someOfNumberFor {
  
  
  
-        //sum of even odd using loop  
+   #  //sum of even odd using loop  
 //        for (int i = 0; i<=20; i++){ 
 // 
 // 
@@ -1128,7 +1159,7 @@ public class someOfNumberFor {
 //        } 
  
  
-        // sum of the number using Loop...@@@@@@@@ 
+   #   // sum of the number using Loop...@@@@@@@@ 
  
 //        int s=0, len; 
 //        len = args.length; 
@@ -1142,7 +1173,7 @@ public class someOfNumberFor {
 //        System.out.println("Sum of command line of arguments: "+s); 
  
  
-         // simple Loop...@@@@@@@@ 
+   #      // simple Loop...@@@@@@@@ 
  
  
 //        for (int i=0; i<=10; i=i+2){ 
@@ -1154,10 +1185,10 @@ public class someOfNumberFor {
     } 
 } 
                
-            The End of for loop java tutorial 15 
+   #        The End of for loop java tutorial 15 
  
-Tutorial – 16 
-Java do while loop 
+# Tutorial – 16 
+# Java do while loop 
 Java Do While Loop 01.03.2019 
  
 1.	int I =0;  firstly initialize part 
@@ -1181,6 +1212,7 @@ Java while loop 01.03.2019
  
  
 4.	Body er moddhe statement then increment / decrement . 
+
 5.	Jotokhon porjonto condition part ture tahakbe totokhon porjonto loop ta cholte thakbe. Body er moddhe statement gulo print korbe . increment decrement part o thakbe bar bar update hobe. 
  
 6.	Jokon condition false hobe tokon r body er moddhe jabena.  
@@ -1189,8 +1221,8 @@ Java while loop 01.03.2019
 7.	While loop bade porer j code gulo tahkbe oi gula print hote thakbe. 
  
  
-Tutorial 18 
-Break and continue statement 
+# Tutorial 18 
+# Break and continue statement 
 Break and continue statement 
  
  
@@ -1228,39 +1260,47 @@ public class breakAndContinueStatement {
  
 the end of Tutorial 18 
        
-Tutoiral  19 Java Array 
+# Tutoiral  19 Java Array 
  
-Learn Array: 
+#  Learn Array: 
 1.	Using Array – int[] num = new int[10]; 
+
 2.	Delcear Array – int [] num;  String[]names 
+
 3.	Create – num = new int[10]; 
+
 4.	Num[10] – size – 10 ta value ase amar. 
+
 5.	Num[0] – index/subscript – 0,9 porjonto 9 ta index create korte hobe. Kom hole no prob, beshi hole out of exception dibe. 
+
 6.	Array index print – just print array index 
+
 7.	Array size print – length diye array size print 
+
 8.	Array all data sum print – all data sum are print. 
  
-                            Array Theory…@ 
+      # Array Theory…@ 
 9.	Array holo collection of variable of same data type.  Onek gulo variableer collection ke array bola hoy. 
  
 10.	Int type er array er jonno sudhumattro int type variable gulo rakte parbo, string hole string type er variable rakhte hobe. 
  
 11.	Int [] number = new int[10]; 
+
 Ekhane ami array te 10 ti value pass kore disi.. 
  
-12.	Declaring Array : 
+# 12.	Declaring Array : 
 Int num = 10; 
 Int[] num = new int[10]  - Array declare . 
 String[] names = new String[“Uzzal”] 
  
-13.	Array index print :- Int[] num = new num[5]; 
+# 13.	Array index print :- Int[] num = new num[5]; 
 Num[0] = 10; 
 Num[1]= 20; 
 Int length = num.length; 
 System.out.println(length) // then array length  
  
  
-14.	Array subtractor kora jai.: 
+# 14.	Array subtractor kora jai.: 
 Int sum = num[0]+num[1]; 
 System.out.println(sum) 
  
@@ -1284,13 +1324,18 @@ public class Array {
   
          num[0] = 10; // this call of array index          num[1] = 15;          num[2] = 30;          num[3] = 45;          num[4] = 50; 
  
-         //array index print 
+   #  //array index print 
          System.out.println("Index of four: "+num[3]); 
  
  
-         // array size print         int length  = num.length; 
+   #      // array size print        
+                 int length  = num.length; 
         System.out.println("Array of length: "+length);  
-         // array jogfol 
+        
+        
+        
+
+   #     // array jogfol 
         int sum = num[0] + num[1] + num[2] + num[3] + num[4]; 
         System.out.println("Array of sum : "+sum); 
  
@@ -1301,14 +1346,16 @@ public class Array {
 } 
  
                       
-             Array is important of all other Programming language. Below to many other’s picture to array.  
+   #    Array is important of all other Programming language. Below to many other’s picture to array.  
 
 
  
  
 The End of Tutoiral 20 Java Array Java 21 Tutorial Java Array and Avg 
+
 Java Array Finding Sum Avarage:- 52 num 
-Learn Array:- 
+
+# Learn Array:- 
 1.	Array sum and average print kora. 
 2.	Array declear kore length er madhome call kora. 
  
@@ -1364,7 +1411,7 @@ public class ArrayAditionAvg {
  
 } 
  
-java array new Avearage and sum print:- 
+# java array new Avearage and sum print:- 
  
 1. Scanner class crate 
 3.	System, how many num ip user 
@@ -1388,7 +1435,7 @@ java array new Avearage and sum print:-
  
         //array declare         int[] num = new int[5]; 
  
-        //create index array 
+      # //create index array 
 //        num[0] = sc.nextInt(); 
 //        num[1] = sc.nextInt(); 
 //        num[2] = sc.nextInt(); 
@@ -1396,7 +1443,7 @@ java array new Avearage and sum print:-
 //        num[4] = sc.nextInt(); 
  
  
-        // average and sun variable declare 
+   #   // average and sun variable declare 
          int sum = 0;         int avg = 0; 
  
         for (int i = 0; i<num.length; i++){ 
@@ -1414,9 +1461,12 @@ java array new Avearage and sum print:-
         System.out.println("Sum of average : "+avg); 
   
 Tutorial 21 Now End. 
+
 If we want:- 
-Int [] num  = {10,20,30,40,5,20}; Tutorial 22 
-Java For Each Loop 
+Int [] num  = {10,20,30,40,5,20}; 
+
+# Tutorial 22 
+# Java For Each Loop 
  
 1.	Array / collection er jonno forEach loop use kora hoy. 
  
@@ -1434,6 +1484,7 @@ Java For Each Loop
  
  
 7.	For each loop er moddhe print korte hobe. 
+
 8.	Example : -  
 Example:- String [] names = {"Anis sir", "Muzahidul islam ","Shafins", "doc Sunnil "}; 
  
@@ -1454,10 +1505,14 @@ for (int result : num){
 } 
  
 System.out.println("sum = "+sum); 
+
  
  
-Tutorial 22 end now java for each loop                        Tutorial num 23 
--: Introduction to 2D array: 
+Tutorial 22 end now java for each loop    
+
+
+# Tutorial num 23 
+# -: Introduction to 2D array: 
  
 1.	Array 02 proker, One dimontional Array. Multi dimontional Array.. 
  
@@ -1501,7 +1556,7 @@ Creating Array : -
 Tutorial 23 – 2D Array completed . Now End . 
  
  
-Tutorial 24 Array MatriX : 01 
+# Tutorial 24 Array MatriX : 01 
 1. Declare two arry two matrix. 
 2.User input A, B 
 3.Show to the row column input line 4.Matrix A,b with subtraction.. 
@@ -1569,9 +1624,10 @@ System.out.println("Enter element for B Mattrix: -"); for (int row =0; row<2; ro
     System.out.println(" "); } 
  
 --:Tutorial:  25 Array Matrix now End :-- 
+
   
-Tutorial – 26  
- Array Matrix part -02 With subtraction. 
+# Tutorial – 26   Array Matrix part -02 With subtraction. 
+ 
  
  
 //Array matrix with sub..... 
@@ -1658,16 +1714,21 @@ System.out.println("Aray of sub - A+B: - "); for (int row=0; row<2; row++){
   
 Tutorial 26: now end ..  
 Java Array Matrix part 2 printed. 
-Tutorial num : 27  
-Sum Of Diagonal, Upper, Triangle, and Lower. 
+
+
+# Tutorial num : 27  Sum Of Diagonal, Upper, Triangle, and Lower. 
+
 Diagonal – 1+5+9 is Diagonal elements. 
-##Row and column same its call diagonal. 
+
+# Row and column same its call diagonal. 
 If(row==col) 
 Upper triangle – Di agonal elements er upore, 2+3+6 = 11 
-##Row er cheye column er index boro.. 
+
+# Row er cheye column er index boro.. 
+
 If(row<col) 
 Lower Triangle- Daiagonal elements er nise lower Traiangle elements. 4+7+8 = 19. 
-## row er cheye column er index soto.  if (row>col) 
+# row er cheye column er index soto.  if (row>col) 
  
 Example: -  
   public static void main(String args[]) { 
@@ -1779,8 +1840,8 @@ Learn array:
       System.out.println();   } 
  
  
-Tutorial No 29: 
-Part:- 02 
+# Tutorial No 29: Part:- 02 
+
 2.	2Daimontional array first check out row and column . 
 3.	Row declare must but column doesn’t declare no problem. 
 4.	Ouptpu:  
@@ -1799,11 +1860,11 @@ Part:- 02
 // 1 num row a column thakbe 2 ta. 
  
  
-//row er under a column create,  row num[0] a akta column new int[1]; create korlam. 
+# //row er under a column create,  row num[0] a akta column new int[1]; create korlam. 
 num[0] = new int[1]; num[1] = new int[2]; num[2] = new int[3]; num[3] = new int[4]; 
  
  
-//initlize the value. 
+# //initlize the value. 
 int k = 0;  
 //create row with every looping 1 add to column with asign to num.. 
 for (int i =0; i<4; i++){ 
@@ -1818,7 +1879,7 @@ for (int i =0; i<4; i++){
  
  
  
- // display show this array now... 
+# // display show this array now... 
 for (int i=0; i<4; i++){ 
  
     for (int j=0; j<i+1; j++){ 
@@ -1834,8 +1895,8 @@ Tutorial 29 is now end.
  
  
  
-Tutorial No: 30 
-Sorting An Array 
+# Tutorial No: 30 
+# Sorting An Array 
  
 Array ascending / Descending:- 
  
@@ -1872,21 +1933,26 @@ Array ascending / Descending:-
 The Tutorial end of Soritn an array.. 
 Tutorial end Num of 30 Complete in Array. 
  
-Tutorial:-  31 
-Array List in Java.. 
+# Tutorial:-  31  Array List in Java..
  
 Array:- 
 1.	Array is static . 
+
 2.	Static thatmeans size fixed. Next ami change korte parbona. 
+
 3.	Array size fixed thake. 
-Array List:- 
+
+# Array List:- 
 1.ArrayList Dynamic. 
+
 2.ArrayList er size fixed noy,   eta dynamic. Eta ami change korte parbo. 
+
 3. Primary point ami jotogulo element add korte saiboo ArrayList a  add korte parbo.  
  
   
  
-Array List declare : 
+# Array List declare : 
+
 ArrayList<Integer> number = new ArrayList<Integer>(); 
 ();- er moddhe size esse moton nite parbo.. ei jonno amra size nissina.. 
  
@@ -1898,16 +1964,23 @@ ArrayList<Integer> number = new ArrayList<Integer>();
  
  
  
-     
-                      Example : ArrayList Part : 01 ArrayList: 
+ #   Example : ArrayList Part : 01 ArrayList: 
 1.ArrayList create = ArrayList<Integer> 
+ 
 2.Array size. = num.size(); 
+
 3.	Array add = num.add(); 
+
 4.	Array index display to show= num 
+
 5.display to many other Array = for each loop(); 
+
 6.	for loop to – iterator method declare. 
+
 7.	removing element to aray  index – num.remove(); 
+
 8.	all elements are removing aray  - num.remove(num); 
+
 9.	clear method call – num.clear(); 
  
  
@@ -1989,21 +2062,31 @@ Contains:"+num);
 Contains:"+num); 
  
  
-                       Tutorial – 33 
-                    Array List Part : 02  
+ # Tutorial – 33  Array List Part : 02  
+                   
 // basic ArrayList in java 
 /*ArrayList 
+
 *	create-ArrayList<Integer> num=new 
 ArrayList<Integer>(); 
+ 
 *	size output- num.size 
+
 *	elements add – num.add  * print and contains- num.contains(30)- Boolean return. 
+
 *	size 
+
 *	remove – num.remove(2); - index 
+
 *	all size of remove – num.remove(); 
 *	Clear method – num.clear();  * isEmpty - if any value storage return false, any value null retrun true, 
+
 *	ArrayList contains - ArrayList er size a 30 value thakle true, na thakle false. 
+
 *	set method - Arralist in any index set of value, that means replace method. 
+
 *	get method – index er value pabo. 
+
 *	*/ 
  
 ArrayList<Integer> num = new 
@@ -2023,7 +2106,7 @@ System.out.println("Array List size :-
 " + num.size()); 
  
  
-//all arrayList print and contains print. 
+# //all arrayList print and contains print. 
 System.out.println("Array List contains : " + num); //isEmpty(); 
 /* ArrayList empty return true, ArrayList any value storage return false*/ 
 boolean con = num.isEmpty(); 
@@ -2031,46 +2114,46 @@ System.out.println("condition is empty method: "+con);
  
  
  
-//set method 
+# //set method 
 num.set(3,100);  // replace System.out.println("Seeter method , replace call : "+num); 
  
  
  
-//get method(); 
+# //get method(); 
 int gets  = num.get(0);  // get in method. 
 System.out.println("Index of 0 :- 
 "+gets); 
  
  
  
-//indexOf(); 
+# //indexOf(); 
 int indexpos = num.indexOf(30); System.out.println("Index of ArrayList  
 : "+indexpos); 
  
  
  
-//contains method 
+# //contains method 
 /*list in storage if any element are return true , other return false. */ boolean cont = num.contains(30); System.out.println("30 is in the line:- "+cont); 
  
  
  
-//arrayList remove index. num.remove(num.remove(1)); 
+# //arrayList remove index. num.remove(num.remove(1)); 
 System.out.println("ArrayList remove index :- " + num); 
  
  
  
-//arrayList remove all num.removeAll(num); 
+# //arrayList remove all num.removeAll(num); 
 System.out.println("ArrayList Remove all : " + num); 
  
  
  
-//arrayListClear num.clear(); 
+# //arrayListClear num.clear(); 
 System.out.println("After clear Array: 
 "+num); 
  
  
-Tutorial -34 
-ArrayList  part : - 03 
+# Tutorial -34 ArrayList  part : - 03 
+
  
 /* 
 *	use to add method. 
@@ -2103,8 +2186,8 @@ System.out.println("num1 == num3:
  
  
       
-Tutorial – 36 
-Sorting an ArrrayList 
+# Tutorial – 3 6 Sorting an ArrrayList 
+
 # If any num smaller to bigger or bigger to smaller show in program.- this is call sorting. 
 That’s means – ascending or descending. 
  
@@ -2130,14 +2213,14 @@ num.add(10); num.add(- 20); num.add(30); num.add(40); num.add(50);
 System.out.println("before sorting : 
 "+num); 
  
-//ascending sorting area call of 
+# //ascending sorting area call of 
 collections.sort(); 
 Collections.sort(num); 
 System.out.println("Ascending sorting : 
 "+num); 
  
  
-// reverse korlei descending. Collections.sort(num, 
+# // reverse korlei descending. Collections.sort(num, 
 Collections.reverseOrder()); 
 System.out.println("Descending sorting 
 "+num); 
@@ -2150,14 +2233,14 @@ System.out.println("Descending sorting
  
  
   
-Tutorial – 37 
+# Tutorial – 37  Java Bangla Tutorial String 
  
-Java Bangla Tutorial String 
+
  
-String – String that’s means object. Sequence of char 
+# String – String that’s means object. Sequence of char 
 in java programming 
  
-/* String makes for 3 class 
+# /* String makes for 3 class 
  
  1.String 
  2.String Buffer 
@@ -2174,7 +2257,7 @@ Uzzal");
  
  9.coName , obj jodi akoi hoy tahole 3 system ase print kora jabe.. 
  
-  //compareTo, equals, == ; // 
+ #  //compareTo, equals, == ; // 
  
    coName and obj ke reference bola hoy refernce gulo akoi na tai not equal print hobe. 
  
@@ -2194,13 +2277,13 @@ coName.contains("Techoners");
  
  
  
-  // value string 
+ #  // value string 
   String coName = "Techoners 
 Wordpress"; 
   System.out.println("valu Stirng : -" 
 + coName); 
  
-  //object string 
+ #  //object string 
   String obj = new String("Techoners Wordpress"); 
   System.out.println("Object Stirng : 
 -" + obj); 
@@ -2243,7 +2326,7 @@ Equals");
   } 
  
  
-  // contains method call korbe.    // kaj holo coName er moddhe obj er kisu ase kina jodi thake true return korbe. 
+ #  // contains method call korbe.    // kaj holo coName er moddhe obj er kisu ase kina jodi thake true return korbe. 
   if (coName.contains(obj)){ 
  
       System.out.println("Correct contains");   }else {       System.out.println("Incorrect contains"); 
@@ -2277,8 +2360,10 @@ Equals");
  
  
 End of java String part 1. 
-Tutorial No :- 38 
-Java String part  : 02 
+
+
+# Tutorial No :- 38 Java String part  : 02 
+
  
 // String part 2: 
 /* 
@@ -2290,7 +2375,7 @@ madhome sob kisu boro hobe..  *toLowerCase(); - lower case er madhome sob kisu s
 *	*/ 
  
  
-// String er madhome jog possible.. 
+# // String er madhome jog possible.. 
 String firstName = "Uzzal"; 
 String lastName = " Mondal"; 
  
@@ -2351,7 +2436,7 @@ System.out.println(lname);
  
  
  
-//String array 
+# //String array 
 String [] names = {"Shuvash", 
 "Shaptami","uzzal","suzal","Mondira"}; 
  
@@ -2368,21 +2453,21 @@ for (String allName : names){
     System.out.print(","+allName); 
 } 
       
-Tutorial 40  
-Java String part – 3 
+# Tutorial 40  Java String part – 3 
+
  
-trim(); - samne and pise se jaiga remove korbe but middle point a noy. chartAt(0) – 0 index er char find korte parbo. codePointAt(0) – 0 index er asci value return korbe. 
+# trim(); - samne and pise se jaiga remove korbe but middle point a noy. chartAt(0) – 0 index er char find korte parbo. codePointAt(0) – 0 index er asci value return korbe. 
 indexOf(‘n’) – n er index/pos num ta bole dibe 
 lastIndexOf(‘n’) – last er index/pos num ta bolbe. 
  
 String name  = " Techoners is well for Web 
 Development "; 
  
-//trim(); 
+# //trim(); 
  String t = name.trim(); 
  System.out.println(t); 
  
-// chartAt(0); 
+#// chartAt(0); 
  // 0 index er char ti find korbe. 
 char n  = name.charAt(0); 
 System.out.println(n); 
@@ -2391,7 +2476,7 @@ System.out.println(n);
  System.out.println(); 
  
  
-// codePointAt(0) 
+# // codePointAt(0) 
  //0 index er asci value return korbe. 
  int a =  name.codePointAt(0);  System.out.println(a); 
  
@@ -2400,7 +2485,7 @@ System.out.println(n);
  //indexOf(‘e’) – e er index/pos num ta bole dibe  int m =  name.indexOf('e'); 
  System.out.println(m); 
  
- //lastIndexOf(‘e’) 
+ # //lastIndexOf(‘e’) 
  //last er index/pos num ta bolbe.  int e = name.lastIndexOf('e'); 
  System.out.println(e); 
   
@@ -2440,8 +2525,8 @@ Techoners, I hope its my pleasure";
  
          
  
-Tutorial 41 
-String Buffer 
+# Tutorial 41 String Buffer 
+
  
 1.	String is not changeable. With , object k niye j kono akta value , datatype er moddhe rakhte hoy.  then print korte hoy. 
  
@@ -2471,29 +2556,29 @@ StringBuffer("Uzzal Mondal");
    
     
  
-        //String add 
+    # //String add 
         String cName = "Techoners is my best place "; 
  
         StringBuffer sb = new StringBuffer(cName); 
  
-        // just print 
+   # // just print 
         System.out.println(sb); 
    
  
-        //flexiable method(); 
+  # //flexiable method(); 
         // onno datatype  er sathe kaj kore..         //string 
         sb.append("Thank's to chance in you place "); 
         //int         sb.append(10); 
         System.out.println(sb); 
       
-        // delete 
+   # // delete 
         // 0 index theke koto index porjonto delete  seta bolte hobe         sb.delete(0,4); 
         System.out.println(sb); 
      
-        //length         sb.setLength(10); 
+  # //length         sb.setLength(10); 
         System.out.println(sb); 
     
-        // reverse         sb.reverse(); 
+   # // reverse         sb.reverse(); 
         System.out.println(sb); Tutorial  42 
 String : palindrome 
  
@@ -2544,7 +2629,7 @@ System.out.println("not plaindrome");
       } 
  
  
-Tutorial  - 4 3 StringBuilder 
+# Tutorial  - 43 StringBuilder 
  
 1.	Stirng builder er subidha eta akti change able. 
 2.	appeand(); - int,string,char, double sob gulo value call korte pari. 
@@ -2577,8 +2662,8 @@ Tutorial  - 4 3 StringBuilder
         String dl = sb.delete(0,6).toString(); 
         System.out.println(dl); 
  
-Tutorial 44 
-Wrapper class 
+# Tutorial 44 Wrapper class 
+
  	 
  	 
  
@@ -2711,8 +2796,8 @@ String s = "32"; int  nm = Integer.parseInt(s);
         String f = "20.56";         float fl = Float.parseFloat(f); System.out.println(fl); 
   
  
-Tutorial : 46 
-Binary, Octal, Hexadecimal convert to-> Decimal..## 
+# Tutorial : 46 Binary, Octal, Hexadecimal convert to-> Decimal..## 
+
  
  
  
@@ -2734,8 +2819,8 @@ Integer.parseInt(bin,2);
 +hd); 
   
  
-Tutorial - 47 
-convert decimal into binary, octal, hexadecimal number. 
+# Tutorial - 47 convert decimal into binary, octal, hexadecimal number. 
+
  
         // decimal to binary. 
         // toBinaryStirng(); -> return korbe akta string.. 
@@ -2761,8 +2846,8 @@ Integer.toOctalString(decimall);
 :- "+hex); 
  
  
-Tutorial -48 
-Date & Time 
+# Tutorial -48 Date & Time 
+
  
         // current date show .. 
         Date  date = new Date(); 
