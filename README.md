@@ -201,8 +201,8 @@ Varibale and DataType In Java
  
 Varibale and Data Type 
  
-Variable -  চলক 
-1.	যার মধ্য়ে আমর ক ান ক ছু জমা  ধ্র রাখধ্ে পাকর ।  num1- variable ,  20 is value 
+Variable -
+1.if any data storage to including  value, this call variable.   num1- variable ,  20 is value 
  
 2.	Variable write to rules: 
 3.	Variable write to rules: 
